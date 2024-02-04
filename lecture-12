@@ -1,0 +1,39 @@
+/* Class-12 CSS BOX Model */
+
+/* Setting margin to 10px for all sides */
+margin: 10px;
+
+/* Creating a border with 2px thickness, dashed style, and black color */
+border: 2px dashed black;
+
+/* Adding padding of 5px for all sides */
+padding: 5px;
+
+/* Setting width and height of the box to 200px */
+width: 200px;
+height: 200px;
+
+/* Styling for a div, which is a block element */
+div {
+  /* Adding either scroll or hidden overflow behavior */
+  overflow: scroll/hidden;
+
+  /* Changing display property to inline-block */
+  display: inline-block;
+
+  /* Setting margin for top, right, bottom, and left */
+  margin: top right bottom left;
+
+  /* Adding padding for top, right, bottom, and left */
+  padding: top right bottom left;
+
+  /* Centering the arrangement with margin: 10px auto */
+  margin: 10px auto; /* top/bottom left/right */
+
+  /* Display property not inherited by child elements */
+  display: inline; /* or any other value based on requirement */
+
+  /* No need for width and height if display is inline */
+  width: auto;
+  height: auto;
+}

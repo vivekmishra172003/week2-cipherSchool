@@ -1,0 +1,11 @@
+let score1;
+let result1 = null;
+
+console.log(typeof score1);
+console.log(typeof result1);
+
+if (score1 !== undefined && score1 !== null) {
+    console.log("Score is defined and not null");
+} else {
+    console.log("Score is either undefined or null");
+}

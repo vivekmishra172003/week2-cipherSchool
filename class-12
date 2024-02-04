@@ -1,0 +1,59 @@
+/* Class-12 CSS BOX Model */
+
+/* Box Model properties */
+/* Margin: Creates space around the element */
+/* Border: Defines the border around the element */
+/* Padding: Creates space between the element's content and its border */
+/* Width/Height: Sets the dimensions of the element */
+
+/* Example styling for a div (block element) */
+div {
+  margin: 10px; /* Margin on all sides */
+  border: 2px dashed black; /* Dashed black border */
+  padding: 5px; /* Padding on all sides */
+  width: 200px; /* Width of the element */
+  height: 200px; /* Height of the element */
+}
+
+/* Overflow property */
+/* Determines what happens if the content overflows the box */
+/* Options: scroll (adds a scrollbar), hidden (hides overflow) */
+div.overflowExample {
+  overflow: scroll;
+  /* Adjust as needed */
+}
+
+/* Display property */
+/* Determines the type of box used for an HTML element */
+/* Values: inline, block, inline-block, etc. */
+/* Display property is not inherited by child elements */
+
+/* Display: inline-block */
+/* Combines features of inline and block elements */
+/* Allows other elements to sit beside it, but still has block-level styling */
+div.inlineBlockExample {
+  display: inline-block;
+  /* No need for width and height if display is inline */
+}
+
+/* Margin property */
+/* Defines the space outside the border of an element */
+/* Format: margin: top right bottom left */
+
+/* Center arrangement */
+/* Auto margin for centering horizontally */
+/* Vertical margin for centering vertically */
+.centerExample {
+  margin: 10px auto; /* 10px top/bottom, auto left/right */
+}
+
+/* Padding property */
+/* Defines the space between the content and the border of an element */
+/* Format: padding: top right bottom left */
+/* Adjust values as needed */
+
+/* Display property not inherited to child */
+/* Child elements need their own display property */
+
+/* If display is inline, no need for width and height */
+/* Inline elements only take up as much width as necessary */
